@@ -1,0 +1,46 @@
+Task 1
+------
+
+if number of texts is n and number of calls in m:
+
+First loop:
+
+The first loop is O(2*n) for iterating which becomes O(n) for big n
+Python set is implemented with hashmap, therefore O(1) insertion
+Thus overall the loop has O(n)
+
+Second loop:
+
+Is the same first loop except for m. Thus O(m) complexity.
+
+Total:
+
+Total Big-O will be the combination of the two loops, thus O(n+m)
+if n is much bigger it can be assumed to be O(n), or if m is much bigger it will be O(m)
+
+Space complexity will be at worst case O(n+m)
+
+Task 2
+------
+
+if number of calls is n. The time complexity is O(n), as we only run through the number of calls once
+
+Space complexity is O(n)
+
+
+Task 3
+------
+
+
+if number of calls is n. The time complexity is O(n), as we only run through the number of calls once
+
+Space complexity will be at worst case O(n)
+
+Task 4
+------
+if number of texts is n and number of calls in m.
+Big-O will be the combination of the two loops, thus O(n+m)
+if n is much bigger it can be assumed to be O(n), or if m is much bigger it will be O(m).
+
+Space complexity will be at worst case O(n+m)
+
